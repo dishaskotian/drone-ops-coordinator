@@ -1,0 +1,9 @@
+run = "cd backend && python app.py"
+language = "python3"
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "cd backend && python app.py"]
+deploymentTarget = "cloudrun"
