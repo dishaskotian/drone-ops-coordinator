@@ -54,7 +54,7 @@ def health():
             "status": "healthy",
             "services": {
                 "google_sheets": "connected",
-                "anthropic_api": "configured"
+                "gemini_api": "configured"
             },
             "data": {
                 "pilots": len(pilots),
